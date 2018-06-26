@@ -7,7 +7,7 @@ body{
 }
 
 #result1, #result2, #result3, #result4, #result5{
-  margin-top: 10px;
+  border: 2px solid 
   border-top: 1px solid orange;
   border-bottom: 1px solid orange;
   padding: 10px;
@@ -70,6 +70,7 @@ form {
   height: 65px;
   border: 1px solid black;
   border-radius: 10px;
+  margin-top: 20px;
 }
 
 #comment1, #comment2, #comment3, #comment4, #comment5{
