@@ -77,5 +77,6 @@ addy5: Address: A galaxy far, far away.
 hours5: Hours: We never close.
 
 Append the div elements to the div id "text5"
+
 */
 
