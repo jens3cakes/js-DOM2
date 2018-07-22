@@ -6,13 +6,18 @@ Also don't forget to run your live-server for this assignment.*/
 /*Despite being the cat's meow, Kapiolani Coffee Shop's current rating is n/a. Let's keep the hungry fans happy by changing the current ranking to:
 
 Rating: 5 Stars*/
-
+var coffeeShopRating= document.getElementById("rating1");
+coffeeShopRating.innerHTML="Rating: 5 Stars"
 
 //2. Sunrise Restaurant
 /*No rise and shine for the Sunrise Restaurant, as their price and address needs some serious updating. Bring in some sunshine by changing the price and address to the following:
 
 Price: $$$
 Adress: 525 Kapahulu Ave, Honolulu, HI 96815*/
+var sunRestPrice = document.getElementById("price2");
+sunRestPrice.innerHTML="$$$";
+var sunRestAddress = document.getElementById("addy2");
+sunRestAddress.innerHTML="525 Kapahulu Ave, Honolulu, HI 96815";
 
 
 //3. Ramen Nakamura
@@ -23,7 +28,10 @@ You will need to create a new div element with an id of "hours3". Inside this di
 Hours: 6pm - 12am Sun - Sat
 
 Append this div element to the div id "text3"*/
-
+var ramenHours = document.createElement("hours3");
+ramenHours.innerHTML= "Hours: 6pm - 12am Sun - Sat";
+var ramenNaka = document.getElementById("text3");
+ramenNaka.appendChild(ramenHours);
 
 //4. Kam Bowl
 /*Kam Bowl got no spare time to update their info and business is suffering! Help them regain their kingpin status again.
